@@ -1,0 +1,2 @@
+sudo mv /boot/vmlinuz-linux-ck /boot/ck/ 
+sudo mkinitcpio -p linux-ck
