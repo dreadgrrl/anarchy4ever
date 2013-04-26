@@ -29,13 +29,13 @@
 <constant name="D_icons_grow" value="0" /> <!-- increasing this value makes the icons in buttons bigger -->
 <!-- geometries -->
 
-<frame_geometry name="normal" has_title="false" title_scale="medium" rounded_top_left="4" rounded_top_right="4"> #jas
+<frame_geometry name="normal" has_title="false" title_scale="medium" rounded_top_left="4" rounded_top_right="4"> <!-- jas --> 
 	<distance name="left_width" value="1" />
 	<distance name="right_width" value="1" />
 	<distance name="bottom_height" value="1" />
 	<distance name="left_titlebar_edge" value="0"/>
 	<distance name="right_titlebar_edge" value="0"/>
-	<distance name="title_vertical_pad" value="9"/>
+	<distance name="title_vertical_pad" value="0"/> <!-- jas -->
 	<border name="title_border" left="10" right="10" top="0" bottom="2"/>
 	<border name="button_border" left="0" right="0" top="0" bottom="2"/>
 	<aspect_ratio name="button" value="1"/>
@@ -46,12 +46,12 @@
 	<distance name="right_titlebar_edge" value="1"/>
 </frame_geometry>
 
-<frame_geometry name="max" has_title="false" title_scale="medium" parent="normal" rounded_top_left="false" rounded_top_right="false"> #jas
+<frame_geometry name="max" has_title="false" title_scale="medium" parent="normal" rounded_top_left="false" rounded_top_right="false"> <!-- jas -->
 	<distance name="left_width" value="0" />
 	<distance name="right_width" value="0" />
 	<distance name="left_titlebar_edge" value="0"/>
 	<distance name="right_titlebar_edge" value="0"/>
-	<distance name="title_vertical_pad" value="8"/> <!-- 
+	<distance name="title_vertical_pad" value="0"/> <!-- jas --> <!-- 
 							This needs to be 1 less then the
 							title_vertical_pad on normal state
 							or you'll have bigger buttons 								-->
