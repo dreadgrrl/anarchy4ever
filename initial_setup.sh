@@ -25,3 +25,5 @@ ln -s ~/anarchy4ever/redshift.conf ~/.config/redshift.conf
 sudo updatedb
 sudo systemctl start ntpd
 sudo systemctl enable ntpd
+sudo ln -s ~/anarchy4ever/Xconf/thinkpad-trackpoint.conf /etc/X11/xorg.conf.d/50-thinkpad-trackpoint.conf
+sudo ln -s ~/anarchy4ever/Xconf/synaptics.conf /etc/X11/xorg.conf.d/50-synaptics.conf
