@@ -11,9 +11,10 @@ makepkg
 sudo pacman -U packer*
 cd
 sudo rm -r packer*
-packer -S ttf-ms-fonts brewtarget archey3
+packer -S ttf-ms-fonts brewtarget archey3 caffeine-bzr mtrack-git
 sudo pacman -S netflix-desktop
 chsh -s /bin/zsh
+sudo ln -s ~/anarchy4ever/Xconf/mtrack.conf /etc/X11/xorg.conf.d/60-mtrack.conf
 ln -s ~/anarchy4ever/.vimrc ~/.vimrc
 ln -s ~/anarchy4ever/.vimrc-combined ~/.vimrc-combined
 ln -s ~/anarchy4ever/zshrc ~/.zshrc
